@@ -16,7 +16,7 @@ if (number == 0)
 }
 else
 {
-    Console.Write($"Кубы всх чисел от 1 до {+number}: ");
+    Console.Write($"Кубы всх чисел от 1 до {number}: ");
     while (count <= number)
     {
         Console.Write(Math.Pow(count, 3) + " ");
